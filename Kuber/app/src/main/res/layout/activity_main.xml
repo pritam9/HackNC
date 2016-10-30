@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+
+    tools:context="com.pritam.hacknc.MainActivity">
+
+    <Button
+        android:text="Deposit"
+
+        android:id="@+id/depositBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FCFFFA"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A4A896"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"/>
+
+    <Button
+        android:text="Set Limits"
+
+        android:id="@+id/setLimitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FCFFFA"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A4A896"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"/>
+
+    <Button
+        android:text="Bill Pay"
+
+        android:id="@+id/expenseManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FCFFFA"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A4A896"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"/>
+
+    <Button
+        android:text="View Bills"
+
+        android:id="@+id/registerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FCFFFA"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A4A896"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"/>
+
+    <Button
+        android:text="Planned Vs Exact"
+
+        android:id="@+id/actualVsPlan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FCFFFA"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A4A896"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"/>
+
+    <Button
+        android:text="Adjust Expenses"
+
+        android:id="@+id/adjustExpenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FCFFFA"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A4A896"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"/>
+</LinearLayout>
